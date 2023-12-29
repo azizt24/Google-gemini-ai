@@ -118,9 +118,7 @@ function App() {
         {!loading && <p className="text-align-left">{apiData}</p>}
         {loading && <p>Loading...</p>}
       </div>
-      <div className="mt-4">
-        Developed By <a href="https://udarax.me">UDARAX</a>
-      </div>
+      
     </div>
   );
 }
